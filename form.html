@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Dogs</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+            <script src="all-about-dogs.js"></script>
+            <div class="topdiv">
+              <h1 class="banner-text">All About Dogs</h1>  
+            </div>
+            <div class="linksdiv">
+                <a href="index.html">Home</a><br>
+                <a href="breeds.html">Dog Breeds</a><br>
+                <a href="products.html">Best Dog Products</a><br>
+                <a href="food-chart.html">Dog Food Chart</a><br>
+                <a href="countdown.html">Dog Age Calculator</a><br>
+                <a href="https://petlifetoday.com/best-gifts-for-dog-lovers/" target="_blank">Dog Lovers - Gift Ideas</a>
+            </div>
+            <div class="centerdiv">
+              <h1 style="margin-left:10px;">Puppy Testimonials</h1>
+                <div style="margin-left:10px;">
+                <!--Dog Image-->
+                <img src="images/new-puppy.jpg" alt="Girl Playing With Two Dogs" width="40%" height="40%" style="float:right; margin-right:150px;">
+                <!--Puppy Testimonial Form-->
+                <table style="float:left;">
+                  <tr>
+                  <td>
+                    <form style="padding-right:50px" name="myForm" onsubmit="return validateForm()">
+                      <label for="fname">First Name:</label>
+                      <input type="text" name="firstname" placeholder="Your First Name">
+                      <br>
+                      <br>
+                      <label for="lname">Last Name:</label>
+                      <input type="text" name="lastname" placeholder="Your Last Name">
+                      <br>
+                      <br>
+                      <label for="country">Dog Breed:</label>
+                      <select name="country">
+                        <option value="None">Select</option>
+                        <option value="purebred">Purebred</option>
+                        <option value="mixed breed">Mixed Breed</option>
+                      </select>
+                      <br>
+                      <br>
+                      <label for="subject" style="float:left;">Testimonial:&nbsp;</label>
+                      <br>
+                      <br>
+                      <textarea name="subject" placeholder="Write about your puppy" style="height:200px; width:400px;"></textarea>
+                      <br>
+                      <br>
+                      <input type="submit" value="Submit" style="margin-left:150px;">
+                    </form>
+                  </td>                  
+                </table>
+                </div>
+            </div>  
+  </body>
+</html>
