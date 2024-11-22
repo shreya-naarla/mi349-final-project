@@ -1,72 +1,82 @@
-html,body {
-    height: 100%;
-    background:#fff;
-    padding: 0;
-    margin: 0;
-  }
+html, body {
+  height: 100%;
+  background:#fff;
+  padding: 0;
+  margin: 0;
+}
+
 /* Top Banner */
-.topdiv{
-         background-image: url('../images/dog-banner2.jpg');
-         background-size: 100% 250px;
-         height: 250px;
-       }
+.topdiv {
+  background-image: url('../images/dog-banner2.jpg');
+  background-size: 100% 250px;
+  height: 250px;
+}
+
 /* Division for the links */
 .linksdiv {
-          float: right;
-          Width: 150px;      
-          height:100%;
-          padding-top: 50px;
-          }
+  float: right;
+  Width: 150px;      
+  height:100%;
+  padding-top: 50px;
+}
+
 /* Center div containing the page main content*/
-.centerdiv{
-         Padding-left: 30px;  
-         Padding-right: 150px;
-        }
+.centerdiv {
+  Padding-left: 30px;  
+  Padding-right: 150px;
+}
           
 a {
-    display: inline-block;
-    color:#53c68c;
-    padding-bottom: 15px; 
-   }
+  display: inline-block;
+  color:#53c68c;
+  padding-bottom: 15px; 
+}
+
 a:visited {
-    color:#88cc00;
-   }
+  color:#88cc00;
+  }
+
 /*Banner text on top banner image*/    
-.banner-text{
-     color:snow;
-     display:inline-block;
-     padding-left:50%;
-     padding-top:20px;
-     font-size:400%;
-   }  
-h1,h2,h3 {
+.banner-text {
+  color:snow;
+  display:inline-block;
+  padding-left:50%;
+  padding-top:20px;
+  font-size:400%;
+}
+
+h1, h2, h3 {
   color:#26734d;
-   }
+}
    
-.foodchart table, .foodchart th, .foodchart tr, .foodchart td{
-   border: 2px solid #26734d;
-   text-align:center; 
-   margin:10px; 
- }
- .foodchart{
+.foodchart table, .foodchart th, .foodchart tr, .foodchart td {
+  border: 2px solid #26734d;
+  text-align:center; 
+  margin:10px; 
+}
+
+.foodchart {
    border-collapse:collapse;
- }
+}
    
- #breeds img{
+#breeds img {
   width:100%; 
   height:100%;
- }
+}
  
- #breeds td{
+#breeds td {
   width:33%; 
- }
+}
  
- #breeds figcaption{
+#breeds figcaption {
   text-align: center; 
- }
- .products {
-  font-weight:bold; 
- }
+}
 
- #more {display: none;}
+.products {
+  font-weight:bold; 
+}
+
+#more {
+  display: none;
+}
 

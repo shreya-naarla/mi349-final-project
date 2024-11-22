@@ -1,115 +1,119 @@
 //breeds.html
 function description1() {
-    document.getElementById("description1").innerHTML = "The Labrador Retriever, often abbreviated to Labrador or Lab, is a breed of retriever-gun dog from the United Kingdom that was developed from imported Canadian fishing dogs. The Labrador is one of the most popular dog breeds in a number of countries in the world, particularly in the Western world.";
-    document.getElementById('lab').remove();
-  }
-  function description2() {
-    document.getElementById("description2").innerHTML = "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties. The name <q>retriever</q> refers to the breed's ability to retrieve shot game undamaged due to their soft mouth.";
-    document.getElementById('golden').remove();
-  }
-  function description3() {
-    document.getElementById("description3").innerHTML = "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog. The breed is divided into four varieties based on size, the Standard Poodle, Medium Poodle, Miniature Poodle and Toy Poodle, although the Medium Poodle variety is not universally recognised.";
-    document.getElementById('poodle').remove();
-  }
-  function description4() {
-    document.getElementById("description4").innerHTML = "The Bulldog, also known as the English Bulldog or British Bulldog, is a medium-sized dog breed. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose. The Kennel Club, the American Kennel Club, and the United Kennel Club oversee breeding records.";
-    document.getElementById('bulldog').remove();
-  }
-  function description5() {
-    document.getElementById("description5").innerHTML = "The beagle is a breed of small scent hound, similar in appearance to the much larger foxhound. The beagle was developed primarily for hunting hare.";
-    document.getElementById('beagle').remove();
-  }
-  function description6() {
-    document.getElementById("description6").innerHTML = "The German Shepherd is a breed of medium to large-sized working dog that originated in Germany. According to the FCI, the breed's English language name is German Shepherd Dog.";
-    document.getElementById('german').remove();
-  }
-  //food-chart.html
-  //index.html
-  function readMore() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+  document.getElementById("description1").innerHTML = "The Labrador Retriever, often abbreviated to Labrador or Lab, is a breed of retriever-gun dog from the United Kingdom that was developed from imported Canadian fishing dogs. The Labrador is one of the most popular dog breeds in a number of countries in the world, particularly in the Western world.";
+  document.getElementById('lab').remove();
+}
+function description2() {
+  document.getElementById("description2").innerHTML = "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties. The name <q>retriever</q> refers to the breed's ability to retrieve shot game undamaged due to their soft mouth.";
+  document.getElementById('golden').remove();
+}
+function description3() {
+  document.getElementById("description3").innerHTML = "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog. The breed is divided into four varieties based on size, the Standard Poodle, Medium Poodle, Miniature Poodle and Toy Poodle, although the Medium Poodle variety is not universally recognised.";
+  document.getElementById('poodle').remove();
+}
+function description4() {
+  document.getElementById("description4").innerHTML = "The Bulldog, also known as the English Bulldog or British Bulldog, is a medium-sized dog breed. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose. The Kennel Club, the American Kennel Club, and the United Kennel Club oversee breeding records.";
+  document.getElementById('bulldog').remove();
+}
+function description5() {
+  document.getElementById("description5").innerHTML = "The beagle is a breed of small scent hound, similar in appearance to the much larger foxhound. The beagle was developed primarily for hunting hare.";
+  document.getElementById('beagle').remove();
+}
+function description6() {
+  document.getElementById("description6").innerHTML = "The German Shepherd is a breed of medium to large-sized working dog that originated in Germany. According to the FCI, the breed's English language name is German Shepherd Dog.";
+  document.getElementById('german').remove();
+}
+
+//food-chart.html
+//index.html
+function readMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
   
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less"; 
-      moreText.style.display = "inline";
-    }
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } 
+  else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
   }
-  //products.html
-  //testimonial.html
-  function validateForm() {
-    let x = document.forms["myForm"]["subject"].value;
-    if (x == "") {
-      alert("Testimonial text box must be filled out");
-      return false;
-    }
+}
+
+//products.html
+//testimonial.html
+function validateForm() {
+  let x = document.forms["myForm"]["subject"].value;
+  if (x == "") {
+    alert("Testimonial text box must be filled out");
+    return false;
   }
-  //countdown.html
-  var slideIndex = 0;
+}
+
+//countdown.html
+var slideIndex = 0;
   
   
-  function showDaysUntil(){
+function showDaysUntil(){
   
   var countDownDate = new Date("Sep 5, 2021 15:37:25").getTime();
   
   var x = setInterval(function() {
   
     var now = new Date().getTime();
-  
+    
     var distance = countDownDate - now;
-  
+    
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-    document.getElementById("demo").innerHTML = days + "  Days<br/>" + hours + "  Hours<br/>"
-    + minutes + "  Minutes<br/>" + seconds + "  Seconds<br/>";
-  
+    
+    document.getElementById("demo").innerHTML = days + "  Days<br/>" + hours + "  Hours<br/>" + minutes + "  Minutes<br/>" + seconds + "  Seconds<br/>";
+    
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("demo").innerHTML = "EXPIRED";
     }
-  }, 1000);
+
+  }, 1000); 
+}
   
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slideshow");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-  
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("slideshow");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000);
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
   }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
     
   
-  function CalculateAge(){
+function CalculateAge(){
   
-       var userDateinput = document.getElementById("dob").value;  
-       console.log(userDateinput);
+  var userDateinput = document.getElementById("dob").value;  
+  console.log(userDateinput);
        
-       var birthDate = new Date(userDateinput);
-        console.log(" birthDate"+ birthDate);
+  var birthDate = new Date(userDateinput);
+  console.log(" birthDate"+ birthDate);
        
-       var difference=Date.now() - birthDate.getTime(); 
+  var difference=Date.now() - birthDate.getTime(); 
             
-       var  ageDate = new Date(difference); 
-       var calculatedAge=   Math.abs(ageDate.getUTCFullYear() - 1970);
-       alert(calculatedAge + " years old");
-  }
+  var  ageDate = new Date(difference); 
+  var calculatedAge=   Math.abs(ageDate.getUTCFullYear() - 1970);
+  alert(calculatedAge + " years old");
+}
   
   
