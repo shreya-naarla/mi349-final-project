@@ -84,3 +84,6 @@ iframe {
   border: none;
 }
 
+hr {
+  position: absolute;
+}
