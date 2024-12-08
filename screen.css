@@ -89,3 +89,8 @@ hr {
   top: 10px;
   border: 1px solid #26734d;
 }
+
+.fun-facts-dog {
+  position: relative;
+  left: 10px;
+}
