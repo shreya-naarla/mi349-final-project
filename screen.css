@@ -28,17 +28,17 @@ html, body {
           
 a {
   display: inline-block;
-  color:#53c68c;
+  color:#7C893B;
   padding-bottom: 15px; 
 }
 
 a:visited {
-  color:#88cc00;
+  color:#3E4803;
   }
 
 /*Banner text on top banner image*/    
 .banner-text {
-  color:snow;
+  color:#FBF5E7;
   display:inline-block;
   padding-left:50%;
   padding-top:20px;
@@ -46,11 +46,11 @@ a:visited {
 }
 
 h1, h2, h3 {
-  color:#26734d;
+  color:#B1B67D;
 }
    
 .foodchart table, .foodchart th, .foodchart tr, .foodchart td {
-  border: 2px solid #26734d;
+  border: 2px solid #B1B67D;
   text-align:center; 
   margin:10px; 
 }
