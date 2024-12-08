@@ -3,6 +3,7 @@ html, body {
   background:#fff;
   padding: 0;
   margin: 0;
+  color: #262116;
 }
 
 /* Top Banner */
@@ -33,7 +34,7 @@ a {
 }
 
 a:visited {
-  color:#3E4803;
+  color:#3e4803;
   }
 
 /*Banner text on top banner image*/    
@@ -68,6 +69,6 @@ iframe {
 }
 
 hr {
-  border: 1px solid #26734d;
+  border: 1px solid #B1B67D;
   top: 10px;
 }
