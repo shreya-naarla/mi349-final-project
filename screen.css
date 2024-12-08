@@ -85,5 +85,7 @@ iframe {
 }
 
 hr {
-  position: absolute;
+  position: relative;
+  top: 20px;
+  border: 1px solid #26734d;
 }
