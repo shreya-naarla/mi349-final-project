@@ -16,6 +16,7 @@ html, body {
 /* Division for the links */
 .linksdiv {
   float: right;
+  position: sticky;
   Width: 150px;      
   height:100%;
   padding-top: 50px;
@@ -75,4 +76,17 @@ hr {
 
 .products {
   display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .no-image {
+    display: none;
+  }
+  .topdiv {
+    max-width: 600px;
+    overflow: hidden;
+  }
+  .banner-text {
+    font-size: 25px;
+  }
 }
