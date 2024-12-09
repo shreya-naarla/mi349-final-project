@@ -86,6 +86,10 @@ hr {
     font-size: 50px;
   }
   .products {
-    column-gap: 10%;
+    flex-direction: column;
+  }
+  .topdiv {
+    max-width: 100%;
+    overflow: hidden;
   }
 }
