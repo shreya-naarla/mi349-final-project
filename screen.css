@@ -79,6 +79,9 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+  }
   .no-image {
     display: none;
   }
@@ -93,6 +96,6 @@ hr {
     background-position: center;
   }
   .banner-text {
-    padding-left: 60%;
+    padding-left: 55%;
   }
 }
