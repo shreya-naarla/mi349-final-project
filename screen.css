@@ -92,4 +92,7 @@ hr {
     background-size: cover;
     background-position: center;
   }
+  .banner-text {
+    padding-left: 60%;
+  }
 }
