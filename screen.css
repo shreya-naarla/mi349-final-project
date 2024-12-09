@@ -82,13 +82,10 @@ hr {
   .no-image {
     display: none;
   }
-  .topdiv {
-    background-image: url('images/dog-banner.jpg');
-    max-height: 250px;
-    max-width: 600px;
-    overflow: hidden;
-  }
   .banner-text {
     font-size: 50px;
+  }
+  .products {
+    column-gap: 10%;
   }
 }
