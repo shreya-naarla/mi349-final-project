@@ -47,8 +47,12 @@ a:visited {
   font-size:400%;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color:#B1B67D;
+}
+
+h3 {
+  font-size: 1em;
 }
    
 .foodchart table, .foodchart th, .foodchart tr, .foodchart td {
