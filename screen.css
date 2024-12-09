@@ -83,6 +83,7 @@ hr {
     display: none;
   }
   .topdiv {
+    background-image: url('images/dog-banner2.jpg');
     max-height: 250px;
     max-width: 600px;
     overflow: hidden;
