@@ -89,7 +89,6 @@ hr {
     flex-direction: column;
   }
   .topdiv {
-    max-width: 100%;
-    overflow: hidden;
+    background-size: cover;
   }
 }
